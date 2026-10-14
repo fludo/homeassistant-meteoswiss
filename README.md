@@ -58,20 +58,20 @@ Add this integration as a custom repository to HACS.  If you use
 HACS you already know the generic instructions on how to do this.
 Here is how it looks like on the add custom repo screen:
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/addcustomrepo.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/addcustomrepo.png)
 
 Once added as a custom repository, add the integration to your
 HACS setup:
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/addrepository.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/addrepository.png)
 
 Once done you should see a pending restart box:
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/pendingrestart.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/pendingrestart.png)
 
 Restart your Home Assistant:
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/restart.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/restart.png)
 
 Now you are ready to add one or more instances of the integration.
 
@@ -83,29 +83,29 @@ Now you are ready to add one or more instances of the integration.
 
 - Get to the Home Asssistant settings screen:
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/settings.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/settings.png)
   
 - Then click on "Devices & Services":
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/devicesservices.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/devicesservices.png)
 
 - Than add a new integration:
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/add.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/add.png)
   
 - Search for *MeteoSwiss* and then proceed:
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/search.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/search.png)
 
 - By default the integration will try to determine the best settings for you
   based on your Home zone latitude and longitude (which you can override):
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/latitude.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/latitude.png)
 
 - The next screen will ask you (with a good guess) about your postal code, and update interval.  This information
   will be used by the weather entity — and the name onscreen is what your weather entity will be named after.
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/postalcode.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/postalcode.png)
 
 - Finally, you get to select the real-time weather station closest to you
   (a good guess is provided) and name your location.  You can select no
@@ -115,11 +115,11 @@ Now you are ready to add one or more instances of the integration.
   precipitation station that is different from your weather station, to get
   rain information closer to where you are.
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/weatherstation.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/weatherstation.png)
 
 - Your task is done and your integration is working.
 
-![enter image description here](https://github.com/Rudd-O/homeassistant-meteoswiss/raw/master/docs/addedandworking.png)
+![enter image description here](https://github.com/fludo/homeassistant-meteoswiss/raw/master/docs/addedandworking.png)
 
 If you are not happy with the settings, in a future release you
 will be able to update them.
@@ -195,7 +195,7 @@ That one is very useful to retract awnings and other smart home activities.
 ## Troubleshooting
   
 In case of problem with the integration, please open an issue on
-[this repository](https://github.com/Rudd-O/homeassistant-meteoswiss)
+[this repository](https://github.com/fludo/homeassistant-meteoswiss)
 explaining the issue and attaching the logs in debug mode.
 
 To obtain logs, activate the component debug log in your
