@@ -2,7 +2,8 @@
     "domain": "meteoswiss",
     "name": "MeteoSwiss",
     "codeowners": [
-        "@fludo"
+        "@fludo",
+        "@Rudd-O"
     ],
     "config_flow": true,
     "dependencies": [],
